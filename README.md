@@ -6,4 +6,4 @@ Python环境:Python 3.7.3
 
 一键安装
 
-```pip install -r requirements.txt
+```pip install -r requirements.txt```
