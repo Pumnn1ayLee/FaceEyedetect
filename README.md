@@ -12,7 +12,7 @@ Python环境:Python 3.7.3
 
 cmd输入命令行,python。
 
-2、根据对应python版本，去https://www.lfd.uci.edu/~gohlke/pythonlibs/，下载对应版本的opencv。
+2、根据对应python版本，去[链接在这](https://www.lfd.uci.edu/~gohlke/pythonlibs/),下载对应版本opencv。
 
 
 3、下载 pip install wheel
@@ -28,7 +28,7 @@ pip3.8(你自己的版本号).exe install C:\Users\97434\AppData\Local\Programs\
 
 ![image](https://user-images.githubusercontent.com/93638514/222913425-b59ba53c-7880-4278-8ec1-f6ce0a68d999.png)
 
-之后输入以下命令:
+之后cmd输入python并输入以下命令:
 
 ```import cv2```
 
@@ -36,7 +36,7 @@ pip3.8(你自己的版本号).exe install C:\Users\97434\AppData\Local\Programs\
 
 # 安装dlib库
 
-1.下载官方网址 (http://dlib.net/)，注意对应python版本号，不同版本不同文件
+1.下载官方网址 [链接在这](http://dlib.net/)，注意对应python版本号，不同版本不同文件
 
 2.打开win系统cmd,进入dilb包解压文件夹路径；
 
@@ -44,7 +44,7 @@ pip3.8(你自己的版本号).exe install C:\Users\97434\AppData\Local\Programs\
 
 ```pip install dlib-19.17.99-cp37-cp37m-win_amd64.whl``` 别照着复制，后面那个文件是你自己对应下载的.whl文件
 
-同样输入python,输入以下命令
+同样cmd输入python,输入以下命令
 
 ```import dlib```
    
@@ -57,6 +57,8 @@ pip3.8(你自己的版本号).exe install C:\Users\97434\AppData\Local\Programs\
 # 最后安装依赖
 
 ```pip install -r requirements.txt```
+
+# 可以开始使用
 
 
 
