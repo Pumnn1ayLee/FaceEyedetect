@@ -21,7 +21,7 @@ cmd输入命令行,python。
 
 5、最后下载 opencv
 
-```pip3.8(你自己的版本号).exe install C:\Users\97434\AppData\Local\Programs\Python\Python38\Scripts\opencv_python-4.5.5-cp38-cp38-win_amd64.whl```(你自己的路径）
+```pip3.8(你自己的版本号).exe install C:\Users\\AppData\Local\Programs\Python\Python38\Scripts\opencv_python-4.5.5-cp38-cp38-win_amd64.whl```(你自己的路径）
 按回车键，会显示安装成功。
 
 下面是以python 3.8为例对应的版本
