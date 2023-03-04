@@ -30,8 +30,7 @@ pip3.8(你自己的版本号).exe install C:\Users\97434\AppData\Local\Programs\
 
 之后输入以下命令:
 
-```python
-   import cv2```
+```import cv2```
 
 没有报错则安装成功
 
@@ -47,8 +46,7 @@ pip3.8(你自己的版本号).exe install C:\Users\97434\AppData\Local\Programs\
 
 同样输入python,输入以下命令
 
-```python
-   import dlib```
+```import dlib```
    
  没有报错则安装成功
 
