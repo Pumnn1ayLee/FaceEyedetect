@@ -7,6 +7,9 @@ import numpy as np
 import imutils
 import time
 
+predictor_path = 'E://Download/shape_predictor_68_face_landmarks.dat.dat'  #检测器路径 在项目里
+
+photo_path = 'D:/Photos/Photo'  #图片保存路径
 
 def eye_aspect_ratio(eye):
     # 计算眼部垂直方向上的2组关键点的欧氏距离
@@ -49,7 +52,7 @@ TOTAL = 0
 detector = dlib.get_frontal_face_detector()
 
 # 创建脸部关键点检测器
-predictor = dlib.shape_predictor("E://Download/shape_predictor_68_face_landmarks.dat.dat")
+predictor = dlib.shape_predictor(predictor_path)
 
 # 得到左右眼的关键点索引，左眼是37~42，右眼是43~48
 (lStart, lEnd) = face_utils.FACIAL_LANDMARKS_68_IDXS["left_eye"]
@@ -116,7 +119,7 @@ while True:
 
         if mar < MOUTH_AR_THRESH:
             cv2.putText(frame,"Happy",(150,252),cv2.FONT_HERSHEY_SIMPLEX,0.7,(0,255,0),2)
-            cv2.imwrite('D:/Photos/Photo'+str(i)+'.png',frame)
+            cv2.imwrite(photo_path+str(i)+'.png',frame)
             i+=1
             print("保存" + str(i)+'.png'+"成功！")
             break
